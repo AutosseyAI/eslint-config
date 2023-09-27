@@ -1,0 +1,50 @@
+{
+  "name": "@autossey/eslint-config",
+  "version": "0.1.0",
+  "description": "A base for projects that use ESLint.",
+  "main": "./.auto/build/index.js",
+  "author": "Connor White",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutosseyAI/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "config",
+    "auto",
+    "autorepo"
+  ],
+  "files": [
+    ".auto/build/**/!(tsconfig.tsbuildinfo)"
+  ],
+  "exports": {
+    ".": "./.auto/build/index.js",
+    "./react": "./.auto/build/react.js"
+  },
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --incremental --module commonjs",
+    "lint": "bun run build && eslint source",
+    "prepack": "bun run build",
+    "watch": "tsc --project ./tsconfig.json --incremental --module commonjs --watch"
+  },
+  "dependencies": {
+    "@types/eslint": "^8.44.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "@autossey/tsconfig": "^1.1.0",
+    "eslint": "^8.50.0"
+  },
+  "eslintConfig": {
+    "extends": ".auto/build/index.js"
+  }
+}

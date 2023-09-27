@@ -1,0 +1,10 @@
+{
+  "extends": "@autossey/tsconfig/node-18-cjs",
+  "compilerOptions": {
+    "outDir": ".auto/build"
+  },
+  "files": [
+    "source/index.ts",
+    "source/react.ts"
+  ]
+}
