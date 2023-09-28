@@ -116,7 +116,7 @@ Rule changes are considered minor updates. Rule changes can cause linting errors
 ```json
 {
   "devDependencies": {
-    "@autosoft/eslint-config": "~0.1.0"
+    "@autossey/eslint-config": "~0.1.0"
   }
 }
 ```
@@ -140,7 +140,7 @@ Rule changes are considered minor updates. Rule changes can cause linting errors
 
 <h3>Dev Dependencies</h3>
 
-- [@autossey/tsconfig](https://www.npmjs.com/package/@autossey/tsconfig): A base for TypeScript projects.
+- [@autossey/tsconfig](https://www.npmjs.com/package/@autossey/tsconfig): A collection of base TSConfigs for various types of projects.
 - [eslint](https://www.npmjs.com/package/eslint): An AST-based pattern checker for JavaScript.
 
 <br />
