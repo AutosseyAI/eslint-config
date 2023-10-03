@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "@autossey/tsconfig": "^1.1.0",
+    "@autossey/tsconfig": "^1.1.1",
     "eslint": "^8.50.0"
   },
   "eslintConfig": {
