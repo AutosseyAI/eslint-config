@@ -5,6 +5,7 @@
   },
   "files": [
     "source/index.ts",
+    "source/node.ts",
     "source/react.ts"
   ]
 }

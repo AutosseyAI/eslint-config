@@ -22,6 +22,7 @@
   ],
   "exports": {
     ".": "./.auto/build/index.js",
+    "./node": "./.auto/build/node.js",
     "./react": "./.auto/build/react.js"
   },
   "scripts": {
@@ -48,6 +49,6 @@
     "eslint": "^8.50.0"
   },
   "eslintConfig": {
-    "extends": ".auto/build/index.js"
+    "extends": ".auto/build/node.js"
   }
 }
