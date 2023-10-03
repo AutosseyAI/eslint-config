@@ -130,11 +130,17 @@ Rule changes are considered minor updates. Rule changes can cause linting errors
 - [@types/eslint](https://www.npmjs.com/package/@types/eslint): TypeScript definitions for eslint
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): TypeScript plugin for ESLint
 - [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser): An ESLint custom parser which leverages TypeScript ESTree
-- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import): Import with sanity.
+- [eslint-plugin-i](https://www.npmjs.com/package/eslint-plugin-i): A fork of `eslint-plugin-import` using `get-tsconfig` to replace `tsconfig-paths` and heavy `typescript` under the hood.
 - [eslint-plugin-json](https://www.npmjs.com/package/eslint-plugin-json): eslint plugin for JSON files
 - [eslint-plugin-n](https://www.npmjs.com/package/eslint-plugin-n): Additional ESLint's rules for Node.js
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react): React specific linting rules for ESLint
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): ESLint rules for React Hooks
+
+<br />
+
+<h3>Peer Dependencies</h3>
+
+- [eslint](https://www.npmjs.com/package/eslint): An AST-based pattern checker for JavaScript.
 
 <br />
 
