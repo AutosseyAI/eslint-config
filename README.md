@@ -85,6 +85,8 @@ In your `package.json` file:
 
 **TypeScript**
 
+This is a generic config for projects that use TypeScript.
+
 ```json
 {
   "eslintConfig": {
@@ -93,7 +95,21 @@ In your `package.json` file:
 }
 ```
 
+**Node**
+
+The `node` config extends the `typescript` config and adds rules for Node.js.
+
+```json
+{
+  "eslintConfig": {
+    "extends": "@autossey/eslint-config/node"
+  }
+}
+```
+
 **React**
+
+The `react` config extends the `typescript` config and adds rules for React.
 
 ```json
 {
