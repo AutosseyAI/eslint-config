@@ -125,7 +125,7 @@ Rule changes are considered minor updates. Rule changes can cause linting errors
 
 <br />
 
-<h2>Dependencies<a href="https://www.npmjs.com/package/@AutosseyAI/eslint-config?activeTab=dependencies"><img align="right" alt="dependencies" src="https://img.shields.io/librariesio/release/npm/@AutosseyAI/eslint-config.svg"></a></h2>
+<h2>Dependencies<a href="https://www.npmjs.com/package/@autossey/eslint-config?activeTab=dependencies"><img align="right" alt="dependencies" src="https://img.shields.io/librariesio/release/npm/@autossey/eslint-config.svg"></a></h2>
 
 - [@types/eslint](https://www.npmjs.com/package/@types/eslint): TypeScript definitions for eslint
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): TypeScript plugin for ESLint
