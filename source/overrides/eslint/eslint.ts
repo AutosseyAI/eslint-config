@@ -99,7 +99,9 @@ const suggestions: Linter.RulesRecord = {
   // "logical-assignment-operators":
   "max-classes-per-file": "warn",
   "max-depth": "off",
-  "max-lines": ["warn", 300],
+  // 1. No clear cut-off point
+  // 2. Long files are self-evident, don't need ESLint to tell us
+  "max-lines": "off",
   "max-lines-per-function": "off",
   "max-nested-callbacks": "warn",
   "max-params": ["warn", 5],
