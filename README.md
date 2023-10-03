@@ -132,7 +132,7 @@ Rule changes are considered minor updates. Rule changes can cause linting errors
 ```json
 {
   "devDependencies": {
-    "@autossey/eslint-config": "~0.1.0"
+    "@autossey/eslint-config": "~0.2.0"
   }
 }
 ```
